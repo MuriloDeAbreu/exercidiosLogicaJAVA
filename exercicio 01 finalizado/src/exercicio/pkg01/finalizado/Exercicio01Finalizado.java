@@ -14,8 +14,31 @@ public class Exercicio01Finalizado {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public static boolean numeroPerfeito(int num) {
+         
+     if (num <= 1){
+     return false;
+        }
+
+     int soma = 0;
+     for (int i = 1; i < num; i++) {
+       if (num % i == 0){
+        soma += i;
+            }
+        }
+        return soma == num;
+     }
     
+     
+    public static void main (String[] args){
+        
+        
+        
+        
+     System.out.println (numeroPerfeito(28));
+     System.out.println (numeroPerfeito(4));
+     System.out.println (numeroPerfeito(12));
+     System.out.println (numeroPerfeito(6));
+    }
+
 }
