@@ -3,27 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicio01;
+package javaapplication374;
 
 /**
  *
  * @author aluno.saolucas
  */
-public class Exercicio01 {
+public class JavaApplication374 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-      
-        
+        // TODO code application logic here
     }
-    
-    public static boolean numeroPerfeito(int num) {
-        
-   
-   
-   
-    
     
 }
